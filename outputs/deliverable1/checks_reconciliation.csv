@@ -1,0 +1,12 @@
+check_item,a,b
+1 purchase rows raw vs deduplicated,15426,15304
+2 purchase revenue raw vs deduplicated,216159.3,214343.48
+3 gross vs net (refunds),217593.22,214343.48
+4 payers: profile first_purchase_date vs distinct tx devices,11054,11054
+5 active dev-days: player_day only vs union w/ purchases,667435,669864
+6 ad dev-days matched to player_day (shifted),392949,392949
+7 revenue on days with no player_day row (D4 impact),2449,35732.51
+8 DAU: (day x platform) split sums to total active dev-days,669864,669864
+9 total active dev-days and DAU date range,669864,20260101-20260430
+10 positive tx rows vs payers + repeat pairs (1c1/1c3 identity),15078,15078
+11 ad rows on DAU days: dark days (expect 2 = Mar 5-6 outage),2,"20260305,20260306"

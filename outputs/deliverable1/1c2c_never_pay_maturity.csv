@@ -1,0 +1,5 @@
+install_month,installs,payers,never_paid_pct
+01 installed Jan (>=90d follow-up),9809,2364,75.9
+02 installed Feb (>=60d follow-up),9471,1939,79.5
+03 installed Mar (>=30d follow-up),18209,2390,86.9
+04 installed Apr (short follow-up),26806,1686,93.7

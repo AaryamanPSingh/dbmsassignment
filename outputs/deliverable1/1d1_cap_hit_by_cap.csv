@@ -1,0 +1,3 @@
+cap,ad_days,days_cap_changed,watch_days,counter_hit_days,completed_hit_days,counter_hit_pct_of_ad_days,completed_hit_pct_of_watch_days,avg_interactions_per_day,avg_completed_per_day,counter_hit_but_completed_short,days_counter_gt_completed
+5,294861,0,262057,3756,1404,1.27,0.54,1.65,1.35,2352,79024
+8,98088,0,87016,18,1,0.02,0.0,1.65,1.35,17,26357
