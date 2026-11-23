@@ -1,1 +1,16 @@
-.db
+# SQLite database — regenerate with: python3 scripts/load_data.py
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
