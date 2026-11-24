@@ -1,0 +1,9 @@
+period,tier,installs,share_pct
+P1 first30,1,3212,33.8
+P1 first30,2,2449,25.8
+P1 first30,3,2110,22.2
+P1 first30,4,1723,18.1
+P2 last30,1,3234,12.1
+P2 last30,2,2499,9.3
+P2 last30,3,4266,15.9
+P2 last30,4,16807,62.7

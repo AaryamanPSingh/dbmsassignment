@@ -240,11 +240,13 @@ window.
 
 ## 3. What this sets up
 
-- **Deliverable 2 candidates** (to be chosen after this profiling): (a) the
-  Android ARPDAU −17.5% / payer-share decline against flat retention and 13×
-  install growth — mix shift vs within-segment decline (Simpson's-paradox
-  style; the brief hints country tiers are flat), or (b) sale incrementality
-  using the weekly revenue spikes + `sale_flag` in `purchase`.
+- **Deliverable 2 topic** (chosen after this profiling): **(a) the
+  Android/overall ARPDAU −17.5% / payer-share decline against flat retention
+  and 13× install growth — mix shift vs within-segment decline (Simpson's-
+  paradox style; the brief hints country tiers are flat)** — see
+  `writeup/deliverable2.md`. Option (b), sale incrementality using the weekly
+  revenue spikes + `sale_flag`, remains a candidate but needs a promo-depth
+  calendar the extract does not contain.
 - Q4 (player_day gaps around purchases) and Q6 (ad outage) must be footnoted
   in any deck chart that touches those days.
 

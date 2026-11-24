@@ -1,0 +1,13 @@
+check_item,"CAST((SELECT SUM(n) FROM (
+             SELECT COUNT(*) n FROM period_dd pd JOIN player_profile r USING (device_id)
+             GROUP BY r.acquisition_channel) ) AS TEXT)",CAST((SELECT COUNT(*) FROM period_dd) || ' rows in P1+P2' AS TEXT)
+1 channel active_dd sums to period totals (P1 / P2 / pooled),366421,366421 rows in P1+P2
+2 channel gross sums to period gross (P1 + P2 = pooled),112836.82,112836.82
+3 installs: channel sums vs player_profile total,80295,80295
+4 no NULL acquisition_channel,0,0
+"5 LTV30 installs Jan-Mar: channel sums vs in-scope total (37,489)",37489,37489
+"6 LTV30 revenue: channel sums vs D2 tier sums (77,493.58)",77493.58,77493.58
+7 identity: sum(share x raw ARPDAU) over channels = blended ARPDAU,0.3079,0.3079
+"8 retention d7 pooled: retained <= matured (matured-cell rule, all weeks)",13851 <= 54167,80295 total installs
+"9 tier-std naive rpi == headline rpi (max abs diff, 2 query paths)",0.0,0.0
+10 retention by month: Jan-Mar d7 retained sums to pooled cells,9591,9591

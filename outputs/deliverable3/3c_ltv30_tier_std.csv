@@ -1,0 +1,4 @@
+channel,installs,payer_rate_naive_pct,rpi_naive,payer_rate_std_pct,rpi_tier_std
+organic,12948,13.31,2.4627,11.99,2.149
+paid_social,11511,13.15,2.2167,11.78,1.9581
+paid_video,13030,8.86,1.5418,11.27,2.046

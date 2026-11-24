@@ -1,0 +1,4 @@
+scenario,arpdau,revenue_at_p2_scale,vs_actual_dollars,vs_actual_pct
+"1 actual (P2 mix, P2 rates)",0.2948,83648.0,0.0,0.0
+2 no mix shift (P1 shares held),0.3754,106512.0,22864.0,27.3
+3 no within change (P1 rates held),0.2724,77285.0,-6363.0,-7.6

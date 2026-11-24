@@ -1,0 +1,10 @@
+check_item,a,b
+1 decomposition identity: mix + within vs actual (ARPDAU delta),-0.058156,-0.058156
+2 tier table sums to headline: P1 active_dd,82694,82694
+3 tier table sums to headline: P2 gross,83647.92,83647.92
+4 tier shares sum to 100% in each period,100.0 / 100.0,100 / 100
+5 brief claim: every tier flat or improving (P2 >= P1 ARPDAU),4,4 of 4
+6 gross revenue: all-window total vs periods + outside (D1 cross-check),217593.22,217593.22
+7 installs: all-window total vs periods + outside,80295,80295
+8 counterfactual identity: P1 + mix + within = P2 ARPDAU,0.294818,0.294818
+9 country_tier completeness (NULL tier check),0,0

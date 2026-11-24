@@ -1,0 +1,19 @@
+metric,a,b,mean_a,mean_b,delta,ci_low,ci_high,rel_pct_vs_b,rel_ci_low_pct,rel_ci_high_pct,p_value,significant_05,method,n_a,n_b
+revenue_per_install_30d,organic,paid_social,2.4627,2.2167,0.2461,-0.0267,0.5203,11.1,-1.2,23.47,0.076,no,bootstrap 10000 of mean diff,12948,11511
+revenue_per_install_30d,organic,paid_video,2.4627,1.5418,0.921,0.6662,1.1739,59.73,43.21,76.14,0,yes,bootstrap 10000 of mean diff,12948,13030
+revenue_per_install_30d,paid_social,paid_video,2.2167,1.5418,0.6749,0.4201,0.9236,43.77,27.25,59.91,0,yes,bootstrap 10000 of mean diff,11511,13030
+payer_rate_30d,organic,paid_social,13.3071,13.1526,0.1544,-0.6961,1.005,1.17,-5.29,7.64,0.722,no,two-proportion z-test (pp scale),12948,11511
+payer_rate_30d,organic,paid_video,13.3071,8.8565,4.4506,3.6888,5.2123,50.25,41.65,58.85,2.995e-30,yes,two-proportion z-test (pp scale),12948,13030
+payer_rate_30d,paid_social,paid_video,13.1526,8.8565,4.2962,3.5093,5.083,48.51,39.62,57.39,3.853e-27,yes,two-proportion z-test (pp scale),11511,13030
+d7_retention,organic,paid_social,26.4617,25.6665,0.7952,-0.2028,1.7931,3.1,-0.79,6.99,0.1186,no,two-proportion z-test (pp scale),15838,13991
+d7_retention,organic,paid_video,26.4617,24.9363,1.5254,0.6493,2.4014,6.12,2.6,9.63,0.0006119,yes,two-proportion z-test (pp scale),15838,24338
+d7_retention,paid_social,paid_video,25.6665,24.9363,0.7302,-0.175,1.6353,2.93,-0.7,6.56,0.1129,no,two-proportion z-test (pp scale),13991,24338
+minutes_per_recorded_day,organic,paid_social,19.3573,18.7147,0.6427,0.4662,0.8246,3.43,2.49,4.41,0,yes,device bootstrap 10000 of mean diff,23691,20860
+minutes_per_recorded_day,organic,paid_video,19.3573,18.6754,0.682,0.5194,0.8456,3.65,2.78,4.53,0,yes,device bootstrap 10000 of mean diff,23691,32838
+minutes_per_recorded_day,paid_social,paid_video,18.7147,18.6754,0.0393,-0.1302,0.2045,0.21,-0.7,1.1,0.6392,no,device bootstrap 10000 of mean diff,20860,32838
+revenue_per_install_30d_tier_std,organic,paid_social,2.149,1.9581,0.1908,-0.0629,0.4356,9.75,-3.21,22.24,0.13,no,stratified bootstrap 10000 of std mean diff,12948,11511
+revenue_per_install_30d_tier_std,organic,paid_video,2.149,2.046,0.103,-0.2123,0.4061,5.03,-10.38,19.85,0.5198,no,stratified bootstrap 10000 of std mean diff,12948,13030
+revenue_per_install_30d_tier_std,paid_social,paid_video,1.9581,2.046,-0.0879,-0.4058,0.2206,-4.3,-19.83,10.78,0.5842,no,stratified bootstrap 10000 of std mean diff,11511,13030
+payer_rate_30d_tier_std,organic,paid_social,11.9868,11.7766,0.2102,-0.6,1.0453,1.78,-5.1,8.88,0.6156,no,stratified bootstrap 10000 of std mean diff,12948,11511
+payer_rate_30d_tier_std,organic,paid_video,11.9868,11.2713,0.7155,-0.1976,1.586,6.35,-1.75,14.07,0.1198,no,stratified bootstrap 10000 of std mean diff,12948,13030
+payer_rate_30d_tier_std,paid_social,paid_video,11.7766,11.2713,0.5053,-0.4198,1.4226,4.48,-3.72,12.62,0.2928,no,stratified bootstrap 10000 of std mean diff,11511,13030

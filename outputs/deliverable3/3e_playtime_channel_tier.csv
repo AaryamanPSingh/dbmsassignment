@@ -1,0 +1,13 @@
+channel,tier,recorded_days,minutes_per_recorded_day
+organic,1,40076,21.41
+organic,2,30142,21.08
+organic,3,26193,21.21
+organic,4,21083,21.23
+paid_social,1,33892,20.27
+paid_social,2,25802,20.47
+paid_social,3,21110,20.44
+paid_social,4,17509,20.48
+paid_video,1,12250,20.21
+paid_video,2,9513,20.28
+paid_video,3,21596,19.97
+paid_video,4,105996,20.14

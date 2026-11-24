@@ -1,0 +1,7 @@
+pid,channel,recorded_days,playtime_minutes,sessions,minutes_per_recorded_day,sessions_per_recorded_day
+1,organic,38483,813175.2,145467,21.13,3.78
+1,paid_social,31726,641744.4,117207,20.23,3.69
+1,paid_video,12172,246598.4,44728,20.26,3.67
+2,organic,79011,1683523.0,301574,21.31,3.82
+2,paid_social,66587,1363383.6,246815,20.48,3.71
+2,paid_video,137183,2759866.0,503149,20.12,3.67

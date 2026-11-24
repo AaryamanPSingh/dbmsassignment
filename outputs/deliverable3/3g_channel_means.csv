@@ -1,0 +1,19 @@
+metric,channel,mean,ci_low,ci_high,n,method
+revenue_per_install_30d,organic,2.4627,2.2686,2.6599,12948,bootstrap 10000
+revenue_per_install_30d,paid_social,2.2167,2.0298,2.4097,11511,bootstrap 10000
+revenue_per_install_30d,paid_video,1.5418,1.3863,1.7064,13030,bootstrap 10000
+payer_rate_30d,organic,13.31,12.72,13.89,12948,normal approx on proportion
+payer_rate_30d,paid_social,13.15,12.54,13.77,11511,normal approx on proportion
+payer_rate_30d,paid_video,8.86,8.37,9.34,13030,normal approx on proportion
+d7_retention,organic,26.46,25.77,27.15,15838,normal approx on proportion
+d7_retention,paid_social,25.67,24.94,26.39,13991,normal approx on proportion
+d7_retention,paid_video,24.94,24.39,25.48,24338,normal approx on proportion
+minutes_per_recorded_day,organic,19.357,19.237,19.482,23691,device bootstrap 10000
+minutes_per_recorded_day,paid_social,18.715,18.584,18.844,20860,device bootstrap 10000
+minutes_per_recorded_day,paid_video,18.675,18.572,18.78,32838,device bootstrap 10000
+revenue_per_install_30d_tier_std,organic,2.149,1.9782,2.3236,12948,stratified bootstrap 10000 (pooled tier mix fixed)
+revenue_per_install_30d_tier_std,paid_social,1.9581,1.79,2.1348,11511,stratified bootstrap 10000 (pooled tier mix fixed)
+revenue_per_install_30d_tier_std,paid_video,2.046,1.7923,2.3137,13030,stratified bootstrap 10000 (pooled tier mix fixed)
+payer_rate_30d_tier_std,organic,11.9868,11.425,12.5436,12948,stratified bootstrap 10000 (pooled tier mix fixed)
+payer_rate_30d_tier_std,paid_social,11.7766,11.1828,12.3553,11511,stratified bootstrap 10000 (pooled tier mix fixed)
+payer_rate_30d_tier_std,paid_video,11.2713,10.5609,11.984,13030,stratified bootstrap 10000 (pooled tier mix fixed)
