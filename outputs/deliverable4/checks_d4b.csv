@@ -1,0 +1,11 @@
+check_item,observed,expected
+1 labelable population matches an independent count,9494 / 9494,equal
+10 feature window ends at day 6; label window ends at day 89,0,0
+2 one row per device,0,0
+3 every install is inside the labelable window,0,0
+4 every feature/label window is inside the extract,0,0
+5 no NULLs in model features,0,0
+6 revenue_90 recomputed by an independent query,45045.0 / 45045.0,equal
+7 split order is strictly temporal (train < validation < test),2026-01-14 < 2026-01-15 < 2026-01-20 < 2026-01-21,true
+8 first-week revenue never exceeds 90-day revenue,0,0
+9 labelable + excluded = in-window installs,9494 + 54801 = 64295,64295

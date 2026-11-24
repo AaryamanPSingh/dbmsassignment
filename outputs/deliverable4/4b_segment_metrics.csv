@@ -1,0 +1,14 @@
+segment,value,n,payers,payer_rate_pct,revenue_auc,revenue_pr_auc,spearman,mean_rev_90,top10_mean_rev,top10_lift,reliable
+acquisition_channel,organic,1423,351,24.67,0.686,0.5359,0.2813,4.23,18.04,4.27,yes
+acquisition_channel,paid_social,1262,272,21.55,0.7194,0.5601,0.3179,4.45,21.02,4.72,yes
+acquisition_channel,paid_video,464,101,21.77,0.7032,0.5695,0.2929,5.55,23.64,4.26,yes
+country_tier,1,1089,312,28.65,0.6978,0.5974,0.322,6.54,26.12,4.0,yes
+country_tier,2,810,202,24.94,0.7008,0.5627,0.3076,4.89,19.07,3.9,yes
+country_tier,3,712,123,17.28,0.7058,0.4995,0.263,2.87,13.95,4.87,yes
+country_tier,4,538,87,16.17,0.6069,0.3704,0.1381,2.04,4.79,2.35,yes
+platform,Android,2026,395,19.5,0.6741,0.4764,0.2401,3.4,13.2,3.88,yes
+platform,iOS,1123,329,29.3,0.7156,0.628,0.3473,6.52,28.81,4.42,yes
+first_week_payer,0,2968,543,18.3,0.6505,0.29,0.1985,2.93,6.64,2.26,yes
+first_week_payer,1,181,181,100.0,,1.0,0.5884,30.41,89.92,2.96,yes
+install_window,Jan21-25,1583,374,23.63,0.7467,0.6067,0.3686,4.47,21.58,4.83,yes
+install_window,Jan26-30,1566,350,22.35,0.6537,0.4851,0.2255,4.56,17.84,3.91,yes

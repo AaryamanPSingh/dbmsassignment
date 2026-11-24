@@ -1,0 +1,43 @@
+stage,feature,coef_standardised,exp_coef,direction
+payer_probability,active_days_7,-0.0174,0.983,lower
+payer_probability,recorded_days_7,-0.0379,0.963,lower
+payer_probability,sessions_7,0.3004,1.35,higher
+payer_probability,log1p(playtime_7),0.362,1.436,higher
+payer_probability,level_last_7,-0.4253,0.654,lower
+payer_probability,log1p(revenue_7),0.5385,1.713,higher
+payer_probability,log1p(purchases_7),0.7945,2.213,higher
+payer_probability,log1p(ads_completed_7),0.1221,1.13,higher
+payer_probability,ad_days_7,0.0026,1.003,higher
+payer_probability,log1p(cs_premium_7),0.0376,1.038,higher
+payer_probability,log1p(cs_social_7),0.0294,1.03,higher
+payer_probability,log1p(cs_grind_7),0.0763,1.079,higher
+payer_probability,log1p(cs_value_7),0.0086,1.009,higher
+payer_probability,days_to_first_purchase,-0.4442,0.641,lower
+payer_probability,platform=iOS (ref Android),0.3883,1.474,higher
+payer_probability,country_tier=2 (ref 1),-0.3271,0.721,lower
+payer_probability,country_tier=3 (ref 1),-0.5054,0.603,lower
+payer_probability,country_tier=4 (ref 1),-0.8165,0.442,lower
+payer_probability,acquisition_channel=paid_social (ref organic),-0.039,0.962,lower
+payer_probability,acquisition_channel=paid_video (ref organic),-0.0282,0.972,lower
+payer_probability,intercept,-0.9745,0.377,lower
+revenue_if_payer,active_days_7,0.035,1.036,higher
+revenue_if_payer,recorded_days_7,0.218,1.244,higher
+revenue_if_payer,sessions_7,0.0153,1.015,higher
+revenue_if_payer,log1p(playtime_7),0.0758,1.079,higher
+revenue_if_payer,level_last_7,-0.3202,0.726,lower
+revenue_if_payer,log1p(revenue_7),0.4464,1.563,higher
+revenue_if_payer,log1p(purchases_7),-0.2623,0.769,lower
+revenue_if_payer,log1p(ads_completed_7),0.0515,1.053,higher
+revenue_if_payer,ad_days_7,-0.0274,0.973,lower
+revenue_if_payer,log1p(cs_premium_7),0.038,1.039,higher
+revenue_if_payer,log1p(cs_social_7),0.0134,1.014,higher
+revenue_if_payer,log1p(cs_grind_7),0.0282,1.029,higher
+revenue_if_payer,log1p(cs_value_7),-0.0349,0.966,lower
+revenue_if_payer,days_to_first_purchase,0.0239,1.024,higher
+revenue_if_payer,platform=iOS (ref Android),0.0329,1.033,higher
+revenue_if_payer,country_tier=2 (ref 1),-0.1482,0.862,lower
+revenue_if_payer,country_tier=3 (ref 1),-0.16,0.852,lower
+revenue_if_payer,country_tier=4 (ref 1),-0.2936,0.746,lower
+revenue_if_payer,acquisition_channel=paid_social (ref organic),-0.0213,0.979,lower
+revenue_if_payer,acquisition_channel=paid_video (ref organic),0.0057,1.006,higher
+revenue_if_payer,intercept,2.414,11.179,higher

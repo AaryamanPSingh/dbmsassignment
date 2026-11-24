@@ -1,0 +1,4 @@
+split,install_from,install_to,n,payers,payer_rate_pct,mean_rev_90,median_rev_90,p90_rev_90,mean_rev_7,share_90d_rev_in_week1_pct
+train,2026-01-01,2026-01-14,4401,995,22.61,5.09,0.0,9.99,0.98,19.23
+validation,2026-01-15,2026-01-20,1944,414,21.3,4.33,0.0,9.99,0.73,16.76
+test,2026-01-21,2026-01-30,3149,724,22.99,4.51,0.0,9.99,0.94,20.92

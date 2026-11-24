@@ -1,0 +1,6 @@
+model,spearman,mean_rev_90,top10_mean_rev,top10_lift,top10_capture_pct,top20_capture_pct
+no skill (train mean revenue),,4.51,3.81,0.84,8.45,16.62
+first-week spend only,0.4753,4.51,18.51,4.1,41.03,45.18
+first-week payer flag only,0.4738,4.51,18.51,4.1,41.03,45.18
+90-day payer probability only,0.3,4.51,19.77,4.38,43.82,54.43
+two-part expected value (full),0.2983,4.51,19.61,4.34,43.46,54.29

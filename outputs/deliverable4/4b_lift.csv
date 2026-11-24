@@ -1,0 +1,6 @@
+top_pct,targeted,score_cutoff_usd,mean_rev_90_usd,revenue_lift_vs_random,share_of_total_revenue_pct,payer_precision_pct
+5,157,10.5573,32.23,7.14,35.6,96.18
+10,315,6.406,19.61,4.34,43.46,68.89
+20,630,4.8023,12.25,2.71,54.29,49.68
+30,945,3.9278,9.4,2.08,62.52,41.48
+50,1574,2.8928,6.85,1.52,75.91,31.96

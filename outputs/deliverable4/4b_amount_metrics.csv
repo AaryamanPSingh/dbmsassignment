@@ -1,0 +1,4 @@
+sample,n_payers,mae_usd,rmse_usd,median_ae_usd,rmse_log1p,spearman_within_payers
+train (in-sample),1409,20.48,33.25,13.07,1.0006,0.3017
+validation (out-of-time),414,18.96,31.24,12.39,0.9617,0.2728
+"test (out-of-time, untouched)",724,21.05,36.46,12.87,1.0007,0.2659

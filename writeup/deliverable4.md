@@ -8,7 +8,8 @@ that decides whether targeting is worth it.
 
 All numbers come from `sql/deliverable4.sql`, executed by
 `scripts/run_deliverable4.py`; figures come from `scripts/charts_deliverable4.py`.
-Every claim cites its CSV.
+Every claim cites its CSV. The optional 4b extension (90-day value of a new
+install) is written up separately in `writeup/deliverable4b.md`.
 
 **Reproduce from a clean checkout:**
 
@@ -301,3 +302,4 @@ from `[snapshot-13, snapshot]`; churn uses only `(snapshot, snapshot+14]`.
 | `outputs/deliverable4/4a_coefficients.csv` | standardised coefficients and odds ratios |
 | `outputs/deliverable4/checks_d4.csv` | 11 reconciliation/leakage checks |
 | `outputs/deliverable4/figs/fig4a–4d` | deck-ready figures |
+| `writeup/deliverable4b.md`, `sql/deliverable4b.sql`, `scripts/run_deliverable4b.py` | optional 4b: 90-day new-install value model |
