@@ -1,0 +1,4 @@
+sample,n,churners,churn_rate_pct,roc_auc,pr_auc,brier,log_loss,no_skill_brier,no_skill_log_loss,no_skill_pr_auc,auc_ci_low,auc_ci_high,pr_auc_ci_low,pr_auc_ci_high,bootstrap_iters
+train (in-sample),12190,1891,15.51,0.7753,0.3655,0.1144,0.3695,0.1311,0.4315,0.1551,,,,,
+validation (out-of-time),5514,857,15.54,0.77,0.3643,0.1154,0.3734,0.1313,0.432,0.1554,0.7518,0.7872,0.3331,0.3981,1000
+"test (out-of-time, untouched)",8786,1278,14.55,0.7424,0.3327,0.1124,0.3691,0.1243,0.4148,0.1455,0.7283,0.7568,0.3071,0.3594,1000

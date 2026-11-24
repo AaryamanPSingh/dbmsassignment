@@ -1,0 +1,4 @@
+model,n,churners,churn_rate_pct,roc_auc,pr_auc,brier,log_loss,no_skill_brier,no_skill_log_loss,no_skill_pr_auc
+no skill (train prevalence),8786,1278,14.55,0.5,0.1468,0.1244,0.4151,0.1243,0.4148,0.1455
+tenure only (1 feature),8786,1278,14.55,0.7409,0.3179,0.1159,0.382,0.1243,0.4148,0.1455
+full model (22 predictors),8786,1278,14.55,0.7424,0.3327,0.1124,0.3691,0.1243,0.4148,0.1455

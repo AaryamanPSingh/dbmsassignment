@@ -1,0 +1,12 @@
+check_item,observed,expected
+1 snapshot count and split assignment,4 snapshots / 3 splits,4 / 3
+10 purchase-only snapshot actives included by D4 (union rule),196,>0
+11 no eligible player has a feature window before the extract,20260101,20260101
+"2 one row per (snapshot, device)",0,0
+3 every outcome window is inside the extract,0,0
+4 label present and binary,0,0
+5 no NULLs in model features,0,0
+6 eligible = active snapshot rows minus pre-install artefacts,20976 / 20976,equal
+7 churners recomputed by an independent query,3169,3169
+8 split order is strictly temporal (train < validation < test),20260211 < 20260311 < 20260408,true
+9 consecutive snapshots 28 days apart (non-overlapping windows),0,0

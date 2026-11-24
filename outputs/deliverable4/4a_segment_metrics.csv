@@ -1,0 +1,15 @@
+split,segment,value,n,churners,churn_rate_pct,roc_auc,pr_auc,reliable
+test,tenure_bucket,0-6,2369,86,3.63,0.6228,0.0545,yes
+test,tenure_bucket,14-29,1607,199,12.38,0.6696,0.2089,yes
+test,tenure_bucket,30-59,1386,245,17.68,0.6346,0.2544,yes
+test,tenure_bucket,60+,2283,673,29.48,0.6473,0.4162,yes
+test,tenure_bucket,7-13,1141,75,6.57,0.6412,0.1116,yes
+test,country_tier,1,1956,361,18.46,0.7243,0.36,yes
+test,country_tier,2,1505,254,16.88,0.7079,0.3381,yes
+test,country_tier,3,1607,262,16.3,0.7318,0.3463,yes
+test,country_tier,4,3718,401,10.79,0.7516,0.3041,yes
+test,platform,Android,6265,851,13.58,0.7465,0.3191,yes
+test,platform,iOS,2521,427,16.94,0.7277,0.361,yes
+test,acquisition_channel,organic,2676,484,18.09,0.7379,0.3928,yes
+test,acquisition_channel,paid_social,2248,423,18.82,0.7152,0.3423,yes
+test,acquisition_channel,paid_video,3862,371,9.61,0.7145,0.2407,yes
